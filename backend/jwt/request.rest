@@ -1,0 +1,19 @@
+POST http://localhost:3000/post 
+Content-Type: application/json
+    
+    {
+    "titulo": "Teste Para Karol",
+    "descricao": "Oi, Karol. Está vendo Funcionando ?",
+    "usuario": "Caique",
+    "setor": "TI"
+    } 
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+    
+    {
+        "usuario": "Caique",
+        "senha": "123"
+    }

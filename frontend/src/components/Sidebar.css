@@ -1,0 +1,32 @@
+.sidebar ul li:hover {
+    background-color: #dddddd;
+
+}
+
+
+.sidebar ul .dropdown {
+    display: none;
+}
+
+.sidebar ul li.open-dropdown:hover {
+    background-color: #fff;
+
+}
+
+.sidebar ul .dropdown.open {
+    display: block;
+}
+
+svg {
+    border-radius: 50%;
+    position: relative;
+    top: 4px;
+    margin-right: 5px;
+}
+
+.up,
+.down {
+    top: 2px;
+    position: relative;
+    margin-left: 5px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Dados Pessoais</title>
+</head>
+<body>
+    <h1>Formulário de Dados Pessoais</h1>
+    <form action="http://localhost:3000/register" method="post">
+        <!-- Campo: código_funcionario -->
+        <label for="codigo_funcionario">Código do Funcionário (SMALLINT):</label>
+        <input type="number" id="codigo_funcionario" name="codigo_funcionario" required><br>
+
+        <!-- Campo: empresa -->
+        <label for="empresa">Empresa (VARCHAR):</label>
+        <input type="text" id="empresa" name="empresa" maxlength="100" required><br>
+
+        <!-- Campo: nome -->
+        <label for="nome">Nome (VARCHAR):</label>
+        <input type="text" id="nome" name="nome" maxlength="100" required><br>
+
+        <!-- Campo: cpf -->
+        <label for="cpf">CPF (BIGINT):</label>
+        <input type="number" id="cpf" name="cpf" required><br>
+
+        <!-- Campo: nascimento -->
+        <label for="nascimento">Data de Nascimento (DATE):</label>
+        <input type="date" id="nascimento" name="nascimento" required><br>
+
+        <!-- Campo: setor -->
+        <label for="setor">Setor (VARCHAR):</label>
+        <input type="text" id="setor" name="setor" maxlength="5" required><br>
+
+        <!-- Campo: funcao -->
+        <label for="funcao">Função (VARCHAR):</label>
+        <input type="text" id="funcao" name="funcao" maxlength="50" required><br>
+
+        <!-- Campo: email -->
+        <label for="email">Email (VARCHAR):</label>
+        <input type="email" id="email" name="email" maxlength="50" required><br>
+
+        <!-- Campo: sexo -->
+        <label for="sexo">Sexo (CHAR):</label>
+        <input type="text" id="sexo" name="sexo" maxlength="1" required><br>
+
+        <!-- Campo: escolaridade -->
+        <label for="escolaridade">Escolaridade (SMALLINT):</label>
+        <input type="number" id="escolaridade" name="escolaridade" required><br>
+
+        <!-- Campo: estado_civil -->
+        <label for="estado_civil">Estado Civil (VARCHAR):</label>
+        <input type="text" id="estado_civil" name="estado_civil" maxlength="50" required><br>
+
+        <!-- Campo: nacionalidade -->
+        <label for="nacionalidade">Nacionalidade (VARCHAR):</label>
+        <input type="text" id="nacionalidade" name="nacionalidade" maxlength="15" required><br>
+
+        <!-- Campo: ddd_1 -->
+        <label for="ddd_1">DDD 1 (SMALLINT):</label>
+        <input type="number" id="ddd_1" name="ddd_1" required><br>
+
+        <!-- Campo: celular_1 -->
+        <label for="celular_1">Celular 1 (INT):</label>
+        <input type="number" id="celular_1" name="celular_1" required><br>
+
+        <!-- Campo: ddd_2 -->
+        <label for="ddd_2">DDD 2 (SMALLINT):</label>
+        <input type="number" id="ddd_2" name="ddd_2" required><br>
+
+        <!-- Campo: celular_2 -->
+        <label for="celular_2">Celular 2 (INT):</label>
+        <input type="number" id="celular_2" name="celular_2" required><br>
+
+        <!-- Campo: pcd -->
+        <label for="pcd">PCD (CHAR):</label>
+        <input type="text" id="pcd" name="pcd" maxlength="1" required><br>
+
+        <!-- Campo: usuario -->
+        <label for="usuario">Usuário (VARCHAR):</label>
+        <input type="text" id="usuario" name="usuario" maxlength="25" required><br>
+        
+        <label for="senha">Senha (VARCHAR):</label>
+        <input type="password" id="senha" name="senha" maxlength="25" required><br>
+        
+        <!-- Botão de Envio -->
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #7e7e7e;
+    font-size: 18px;
+    box-sizing: border-box;
+
+}
+
+
+
+.flex {
+    display: flex;
+    gap: 12rem;
+}
+
+.navbar {
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background: rgb(1, 15, 43);
+    background: linear-gradient(90deg, rgba(1, 15, 43, 1) 0%, rgba(3, 34, 111, 1) 17%, rgba(9, 15, 121, 1) 100%);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ebe9e9;
+}
+
+.navbar img {
+    height: 45px;
+}
+
+
+.ft-usuario {
+    margin-right: 1rem;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.card-1 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 310px;
+    max-height: 20rem;
+    margin: 15px 0 0 5px;
+    padding-top: 5px;
+    border-radius: 1rem;
+    box-shadow: 7px 7px 13px 0px rgba(175, 172, 172, 0.22);
+    transition: all 0.3s ease-out;
+    background-color: rgb(255, 253, 253);
+
+}
+
+.logo {
+    width: 120px;
+}
+
+.funcao {
+    max-width: 400px;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.funcao p {
+    font-size: 20px;
+
+}
+
+.card-2 {
+    max-height: 52rem;
+    overflow-y: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    margin: 22px 0 0 5px;
+    border-radius: 1rem;
+    box-shadow: 7px 7px 13px 0px rgba(175, 172, 172, 0.22);
+    transition: all 0.3s ease-out;
+    background-color: rgb(255, 253, 253);
+
+}
+
+.user-profile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-2 li {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.card-2 p {
+    cursor: pointer;
+
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.btn-home {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.user-profile img {
+    border-radius: 50%;
+}
+
+.feed {
+    width: 100%;
+
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+.card-feed {
+    font-weight: bolder;
+    max-height: 800px;
+    margin: 15px 0 0 5px;
+    width: 70%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 7px rgba(175, 172, 172, 0.22);
+    transition: all 0.3s ease-out;
+
+}
+
+.user {
+    display: flex;
+    height: 10px;
+}
+
+.user img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+
+}
+
+.user-info h5 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.user-info small {
+
+    color: #545d7a;
+}
+
+.publi-feed {
+    margin-top: 50px;
+
+}
+
+.publi-feed {
+    text-align: justify;
+}
+
+.publi-feed img {
+    object-fit: contain;
+    width: 100%;
+    height: 450px;
+    border-radius: 1rem;
+
+}

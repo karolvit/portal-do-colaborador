@@ -1,0 +1,20 @@
+                        BANCO UTILIZADO: MYSQL 
+
+TABELA USUÁRIO {
+
+    1. Código do Funcionário
+    2. Matricula
+    3. CPF
+    4. Data de nascimento 
+    5. Setor
+    6. Função
+    7. Email       - Pensando em quando for implementar a função 'esqueci minha senha'
+    8. Postagem
+    9. Ativo/Inativo
+}
+
+TABELA LOGIN {
+    1. codigo_funcionário
+    1. Usuario
+    2. Senha 
+}

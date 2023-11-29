@@ -1,0 +1,35 @@
+.menu-opcoes {
+    position: absolute;
+    height: 90px;
+    width: 120px;
+    top: 100%;
+    right: 10px;
+    background-color: rgb(255, 253, 253);
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.menu-opcoes ul {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menu-opcoes li {
+    padding: 13px 7px;
+    cursor: pointer;
+}
+
+.menu-opcoes ul li:hover {
+    border-radius: 10px 10px 0 0px;
+    background-color: #dddddd;
+}
+
+.menu-opcoes .sair ul li:hover {
+    border-radius: 10px 10px 10px 10px;
+    background-color: #dddddd;
+}

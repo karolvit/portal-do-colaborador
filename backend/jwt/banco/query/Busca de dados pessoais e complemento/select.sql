@@ -1,0 +1,4 @@
+select dados_pessoais.codigo_funcionario, dados_pessoais.empresa, dados_pessoais.nome, dados_pessoais.cpf, dados_pessoais.nascimento, dados_pessoais.setor, dados_pessoais.funcao, dados_pessoais.email, dados_pessoais.sexo, dados_pessoais.escolaridade, dados_pessoais.estado_civil, dados_pessoais.nacionalidade, dados_pessoais.ddd_1, dados_pessoais.celular_1, dados_pessoais.ddd_2, dados_pessoais.celular_2, dados_pessoais.pcd, dados_pessoais.usuario, complemento.codigo_funcionario, complemento.endereco, complemento.cep, complemento.rua, complemento.estado
+from dados_pessoais
+inner join complemento
+on dados_pessoais.codigo_funcionario = complemento.codigo_funcionario;
